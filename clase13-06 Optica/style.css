@@ -1,0 +1,295 @@
+
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/* NAbar */
+.barraDeNavegacion {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.ImagenLogo {
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+}
+.ImagenLogo img {
+    width: 120px;
+    height: 120px;
+}
+
+.NavMenu{
+    flex: auto;
+    text-align: right;
+}
+
+.NavMenu ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.NavMenu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.NavMenu li a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+}
+/* CIERRE DE NAVBAR*/
+
+/*LANDING PAGE*/
+/*.LandingPage {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 0;
+}*/
+
+.slider {
+    width: 1300px;
+    height: auto;
+    margin: 0px auto 0;
+    overflow: hidden;
+    margin-right: 10px;
+    justify-content: center;
+
+}
+
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    height: 500px;
+    animation: cambio 20s infinite alternate;
+    margin: 0;
+    
+}
+
+
+.slider li {
+    width: 100%;
+    height: 500px;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/*CIERRE DELANDING PAGE*/
+
+/*SECCION WELCOME*/
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin: 40px;
+}
+
+.btnCita{
+    display: flex;
+    justify-content: center;
+}
+
+.btnCita button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 3px solid #7ad5d0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7ad5d0;
+    background:  #7ad5d0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.btnCita a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    background-color: aqua;
+}
+
+article{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+/*CIERRE SECCION WELCOME*/
+
+/*SECCION OPCIONES DE LENTES*/
+
+.containerLentes{
+    display: flex;
+    justify-content: center;
+
+}
+.tarjetaLentes {
+    display: flex;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #a5eea0;
+    border-radius: 12px;
+}
+
+.tarjetaLentes img {
+    width: 250px;
+
+}
+
+.tarjetaLentes p {
+    text-align: justify;
+    width: 200px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tarjetaLentes h6 {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+/*CIERRE SECCION OPCIONES DE LENTES*/
+
+/*SECCION PRESUPUESTOS*/
+.Presupuesto{
+    display: flex;
+    justify-content: center;
+    margin-right: 0%;
+    margin-left: 0%;
+    
+}
+
+.formularioPresupuesto{
+    margin: 0;
+}
+
+form {
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    margin-top: 40px;
+    
+
+}
+
+.BtnPresupuesto {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 3px solid #7ad5d0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7ad5d0;
+    background:  #7ad5d0;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.imagenPresupuesto{
+    margin-right: 0;
+}
+.imagenPresupuesto img {
+    width: 480px;
+    height: 500px;
+    
+}
+
+/*CIERRE SECCION PRESUPUESTOS*/
+
+footer img {
+    width: 120px;
+    height: 120px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;    
+}
+
+iframe{
+    border-radius: 12px;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.footerHorario h4{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
